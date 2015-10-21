@@ -47,7 +47,7 @@ import Debug.Trace as E
 import Foreign.Storable as E (Storable)
 import GHC.Conc as E hiding (withMVar, threadWaitWriteSTM, threadWaitWrite, threadWaitReadSTM, threadWaitRead)
 import GHC.Generics as E (Generic)
-import GHC.IO.Exception as E
+import GHC.IO.Exception as E (IOError,ioError,userError)
 import Prelude as E 
 import System.Environment as E
 import System.Exit as E
