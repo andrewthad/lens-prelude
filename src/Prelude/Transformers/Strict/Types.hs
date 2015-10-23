@@ -19,7 +19,7 @@ import Control.Monad.Trans.Class as E (MonadTrans)
 
 -- Transformers
 import Control.Monad.Trans.Cont as E (ContT(..))
-import Control.Monad.Trans.Except as E (Except,ExceptT(..))
+import Control.Monad.Trans.Except as E (Except,ExceptT(..),runExceptT)
 import Control.Monad.Trans.Identity as E (IdentityT(..))
 import Control.Monad.Trans.Maybe as E (MaybeT(..))
 import Control.Monad.Trans.RWS.Strict as E (RWS,RWST(..))
