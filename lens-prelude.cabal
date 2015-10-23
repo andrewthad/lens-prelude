@@ -19,10 +19,12 @@ library
                    , Prelude.Transformers.Strict.Types
                    , Prelude.Transformers.Lazy.Types
                    , Prelude.MTL.Types 
+                   , Prelude.MTL
                    , Prelude.Lens.BasicInfix
                    , Prelude.Containers.Types
                    , Prelude.Bitpacked.Types
                    , Prelude.Tertullian
+                   , Prelude.Galileo
     build-depends: base >= 4.8 && < 5
                  , transformers
                  , lens
