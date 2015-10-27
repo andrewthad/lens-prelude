@@ -1,5 +1,5 @@
 name:                lens-prelude
-version:             0.1.0
+version:             0.2
 synopsis:            Alternate prelude that exports lens combinators
 description:         Please see README.md
 homepage:            https://github.com/andrewthad/lens-prelude
