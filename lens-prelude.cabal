@@ -23,6 +23,7 @@ library
                    , Prelude.Lens.BasicInfix
                    , Prelude.Containers.Types
                    , Prelude.Bitpacked.Types
+                   , Prelude.Bitpacked.Module
                    , Prelude.Tertullian
                    , Prelude.Galileo
     build-depends: base >= 4.8 && < 5
@@ -41,4 +42,5 @@ library
                  , contravariant
     ghc-options:      -Wall -fwarn-tabs -O2
     default-language:    Haskell2010
+    default-extensions:  RankNTypes
 
